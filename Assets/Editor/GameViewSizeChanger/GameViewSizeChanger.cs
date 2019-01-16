@@ -17,6 +17,7 @@ namespace Syy.GameViewSizeChanger
 
         private readonly GameViewSizeApplyer[] applyers = new GameViewSizeApplyer[]
         {
+            new GameViewSizeApplyer() {Title="1080*1920", Aspect="9:16", Width=1080, Height=1920, },
             //iOS
             new GameViewSizeApplyer() {Title="iPhone4", Aspect="2:3", Width=640, Height=960, },
             new GameViewSizeApplyer() {Title="iPhone8", Aspect="9:16", Width=750, Height=1334, },
@@ -24,7 +25,7 @@ namespace Syy.GameViewSizeChanger
             new GameViewSizeApplyer() {Title="iPad", Aspect="3:4", Width=768, Height=1024, },
             // Android
             new GameViewSizeApplyer() {Title="GalaxyS8", Aspect="18.5：9", Width=1440, Height=2960, },
-            
+
             //new SizeData() {Title="", Aspect="", Width=1, Height=1, },
         };
 
